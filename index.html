@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>The Voice of Walla Walla</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/custom.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700" rel="stylesheet" type="text/css">
+    <link z rel="shortcut icon" href="./favicon.ico?v=4.0" type="image/x-icon">
+
+    <!-- Fontawesome Icons -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.3/js/all.js"></script>
+
+    <style>
+        @media screen and (max-width: 767px) {
+            body {
+                background-image: url(./media/the-voice-fallback.PNG);
+                background-color: black;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            #bgvid {
+                display: none;
+            }
+            /*allow map to collapse properly on mobile.*/
+            .full_height_parent {
+                display: block;
+            }
+            /*Nicely disable the parallax */
+            .parallax-window {
+                background-attachment: local;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-static-top navbar-dark bg-transparent navbar-fixed-top">
+        <a class="navbar-brand bold smooth" href="#top"><img id="voiceLogo" src="./media/voiceLogo.png" /></a>
+        <button class="navbar-toggler hidden-sm-up pull-xs-right text-white navbar-offset" type="button" data-toggle="collapse" data-target="#links" aria-controls="links" aria-expanded="false" aria-label="Toggle navigation">
+      &#9776;
+    </button>
+        <div class="collapse navbar-toggleable-xs navbar-offset" id="links">
+            <ul class="nav navbar-nav pull-xs-right hidden-sm-up">
+                <!-- collapse navbar  -->
+                <li class="nav-item">
+                    <a class="nav-link smooth" href="#about" data-toggle="collapse" data-target="#links"> About </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smooth" href="#audition" data-toggle="collapse" data-target="#links"> Audition </a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link smooth" href="https://aswwu.com/thevoice/tickets" target="blank"><span class="fas fa-ticket-alt"></span>  Buy Tickets </a>
+                </li>
+            </ul>
+            <!-- Non collapse navbar  -->
+            <ul class="nav navbar-nav pull-xs-right hidden-xs-down">
+                <li class="nav-item">
+                    <a class="nav-link smooth" href="#about"> About </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smooth" href="#audition"> Audition </a>
+                </li>
+                <li class="nav-item">
+                    <a class="center_text" href="https://aswwu.com/thevoice/tickets" target="blank"><button type="button" class="btn nav-btn-tickets">Buy Tickets <span class="fas fa-ticket-alt"></span></button></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Video and title/logo -->
+    <div id="top" class="jumbotron bg-transparent fullheight">
+        <div id='title' class="container text-xs-center text-white">
+            <div class="bg">
+                <video autoplay muted loop id="bgvid">
+                    <source src="https://aswwu.com/media/movies/thevoice.mp4" type="video/mp4">
+                </video>
+            </div>
+            <img id="voiceMain" src="media/voiceMain.png" />
+        </div>
+    </div>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <!-- Example row of columns -->
+            <h1 class="text-xs-center header">About The Voice </h1>
+            <hr>
+            <div class="row">
+                <div class="col-md-8 col-center-md-8">
+                    <p>The first Voice of Walla Walla event is coming to Walla Walla University’s Village Hall Theater on <strong>February 3, 2018</strong>. This tri college event will feature the talents of Walla Walla University, Walla Walla Community College, and Whitman College. The winner of the cash prize will be determined by audience votes. Space is limited, so buy your tickets today to reserve your seat!</p>
+                    <a class="center_text" href="https://aswwu.com/thevoice/tickets" target="blank"><button type="button" class="btn btn-primary">Buy Tickets <span class="fas fa-ticket-alt"></span></button></a>
+                </div>
+            </div>
+            <br />
+        </div>
+        <!-- /container -->
+    </section>
+
+    <div id="window2" class="parallax-window"></div>
+
+    <!-- Application Download -->
+    <section id="audition">
+        <div class="container">
+            <h1 class="text-xs-center header">Audition</h1>
+            <hr />
+            <div id='' class="row">
+                <div class="col-md-8 col-center-md-8">
+                    <p>
+                        Do you have what it takes to be the champion of The Voice of Walla Walla? On February 3, 2018, find out as twelve singers from WWU, Whitman, and WWCC compete for a grand prize of $100!
+                    </p>
+                    <p>
+                        Auditions for The Voice are on January 22, so prepare your song, fill out the application, and come to audition at the Havstad Alumni Center on Monday, January 22 between 7 and 9 PM.  If you can't make it, you can also audition at Walla Walla Community College on January 23rd from 5 to 7 PM and at Whitman College on January 25th from 5 to 7 PM.
+                    </p>
+                    <p>
+                        Please note that you need to bring your backing track, background singers, accompanists, or band to the auditions.  ASWWU will have a drum, but bring your snare and cymbals. For more questions, please email <a href="mailto:aswwu.social@wallawalla.edu">aswwu.social@wallawalla.edu</a>.
+                    </p>
+                    <a class="center_text" href="./media/The_Voice_of_Walla_Walla_Application_Form.pdf" download><button type="button" class="btn btn-primary">Application Download <span class="fas fa-cloud-download-alt"></span></button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="window3" class="parallax-window"></div>
+
+    <nav class="navbar  navbar-dark bg-inverse" style="border-radius:0;">
+        <div class="pull-xs-left text-white small">
+            Composed with
+            <font color="red">&hearts;</font> by the <a href="https://aswwu.com" target="_blank">ASWWU</a> web team.
+        </div>
+        <div class="pull-xs-right small">
+            <a href="#top" class="text-white smooth">Back to Top</a>
+        </div>
+    </nav>
+    <!-- TODO: Make safari not show bg-video when scrolling beyond end of page.  -->
+    <!-- <div style="position: fixed; bottom: -24px; width: 100%; background-color: red;">
+      thingy
+    </div> -->
+    <!-- Javascript stuff  -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/tether.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.smooth-scroll.js"></script>
+    <script src="./js/custom.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBahOC0C4N-7MOD_Qn8446o5QiXX6AmWhc&callback=initMap">
+    </script>
+</body>
+
+</html>

@@ -1,5 +1,5 @@
 :root {
-  --voiceBlue: rgb(48, 68, 112);
+  --ssBlue: rgb(48, 68, 112);
 }
 
 /*Quick Reset*/
@@ -70,13 +70,13 @@ img#bgvid {
   align-items: center;
   height: inherit;
 }
-#voiceLogo {
+#ssLogo {
   height:50px;
 }
 .navbar-offset {
   margin-top: 10px;
 }
-#voiceMain {
+#ssMain {
   width: 100%;
   max-width:800px;
   height: auto;
@@ -97,13 +97,13 @@ img#bgvid {
 
 .nav-btn-tickets {
   background-color: whitesmoke;
-  border-color: var(--voiceBlue);
-  color: var(--voiceBlue);
+  border-color: var(--ssBlue);
+  color: var(--ssBlue);
 }
 
 .btn-primary{
-  background-color: var(--voiceBlue);
-  border-color: var(--voiceBlue);
+  background-color: var(--ssBlue);
+  border-color: var(--ssBlue);
 }
 
 /* .btn-primary:hover{
@@ -140,7 +140,7 @@ section {
 }
 hr {
   width: 100px;
-  border-color: var(--voiceBlue);
+  border-color: var(--ssBlue);
   border-width: 2px;
   margin-top:1.2em;
   margin-bottom:1.5em;

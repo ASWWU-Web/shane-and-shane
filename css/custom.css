@@ -48,7 +48,7 @@ a:hover {
 }
 
 /*Attributes significant to individual elements*/
-video#bgvid {
+img#bgvid {
   position: fixed;
   top: 50%;
   left: 50%;

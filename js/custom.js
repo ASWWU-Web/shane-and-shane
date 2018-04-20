@@ -8,8 +8,8 @@ $(document).ready(function(){
     speed:"auto",
     autoCoefficient:2
   });
-  addParallax("#window2","./media/voiceCello.jpg");
-  addParallax("#window3","./media/voiceDrums.jpg");
+  addParallax("#window2","./media/ss_bw_2.jpg");
+  addParallax("#window3","./media/ss_bw_2.jpg");
   //Attach this function to scroll event.
   // TODO: use bootstrap .affix() to do this. http://getbootstrap.com/javascript/#affix
   $(window).scroll(function() {

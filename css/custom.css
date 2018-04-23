@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Dosis:300,400|Pacifico|Raleway:400,700';
+
 :root {
   --ssBlue: rgb(48, 68, 112);
 }
@@ -186,4 +188,47 @@ hr {
     margin-left: 16.66666665%;
     margin-right: 16.66666665%;
   }
+}
+
+#footer {
+  padding-top: 50px;
+  background-color: #4e5255;
+  padding-bottom: 34px;
+}
+#footerLogo {
+  max-width: 200px!important;
+}
+#social {
+  list-style: none;
+  list-style-type: none;
+  padding-left: 0;
+}
+#social li {
+  display: inline-block;
+  padding-right: 10px;
+}
+#social li a svg {
+  height: 30px;
+  width: 30px;
+  fill:#a7abae;
+  transition: fill .2s;
+  overflow: hidden;
+}
+#social li a svg:hover {
+  fill:white;
+}
+#brand {
+  color:#cdcfd0;
+}
+
+.footerLink {
+  color:#a7abae;
+  transition: color .2s;
+}
+.footerLink:hover, .footerLink:active, .footerLink:focus{
+  color:white!important;
+  text-decoration: none;
+}
+.navbar {
+  border-radius: 0;
 }
